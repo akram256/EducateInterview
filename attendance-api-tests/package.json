@@ -1,0 +1,17 @@
+{
+  "name": "attendance-api-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automated API tests for the Educate! Youth Attendance endpoint",
+  "scripts": {
+    "mock": "tsx mock-server/server.ts",
+    "test": "playwright test",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^20.14.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0"
+  }
+}
